@@ -10,6 +10,37 @@ This is a Django-based trading application that interacts with the Binance API. 
 - Check the status of live orders
 - Cancel existing orders
 
+## Urls
+
+-http://127.0.0.1:8000//accounts/login/         # User login page
+
+-http://127.0.0.1:8000//accounts/logout/        # User logout (Redirect to login page)
+
+<img width="537" height="127" alt="image" src="https://github.com/user-attachments/assets/cbcc5e72-128e-4e88-8598-84c0fa0a87cc" />
+
+
+- http://127.0.0.1:8000/                        # Dashboard (shows current prices)
+
+  <img width="517" height="283" alt="image" src="https://github.com/user-attachments/assets/b438b851-4c27-46a4-a0df-fa3459b49cb0" />
+
+- http://127.0.0.1:8000/place_order/            # Place a market order
+
+  <img width="431" height="245" alt="image" src="https://github.com/user-attachments/assets/1d566c92-d882-4432-8a70-16ab3d2c32d2" />
+  <img width="525" height="174" alt="image" src="https://github.com/user-attachments/assets/e7f94d92-7724-41f6-83a3-38cf47f24949" />
+
+- http://127.0.0.1:8000/order_status/           # Check status of an order
+
+- http://127.0.0.1:8000/cancel_order/           # Cancel an active order
+  
+  <img width="566" height="162" alt="image" src="https://github.com/user-attachments/assets/f8a8c3f1-b4dd-40ca-bf15-a48cbb83cfeb" />
+
+
+- Test Environment - binance
+
+  <img width="1450" height="940" alt="image" src="https://github.com/user-attachments/assets/726eece8-6d0f-407d-a591-20dfd1c789ea" />
+
+
+
 ## Project Structure
 
 ```
