@@ -1,0 +1,14 @@
+<form method="post">
+    {% csrf_token %}
+    <select name="symbol">
+        {% for symbol in symbols %}
+            <option value="{{ symbol }}">{{ symbol }}</option>
+        {% endfor %}
+    </select>
+    <select name="side">
+        <option value="BUY">Buy</option>
+        <option value="SELL">Sell</option>
+    </select>
+    <input type="number" step="any" name="quantity" placeholder="Quantity" required>
+    <button type="submit">Place Order</button>
+</form>

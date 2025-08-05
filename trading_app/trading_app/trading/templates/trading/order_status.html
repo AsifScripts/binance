@@ -1,0 +1,9 @@
+<form method="post">
+    {% csrf_token %}
+    <input type="text" name="symbol" placeholder="Symbol" required>
+    <input type="number" name="order_id" placeholder="Order ID" required>
+    <button type="submit">Get Status / Cancel Order</button>
+</form>
+{% if order %}
+    <pre>{{ order }}</pre>
+{% endif %}

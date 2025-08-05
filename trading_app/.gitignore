@@ -1,0 +1,57 @@
+# Python
+__pycache__/
+*.py[cod]
+*.pyo
+*.pyd
+*.pyc
+
+# Django
+*.sqlite3
+db.sqlite3
+*.log
+
+# Virtual Environment
+env/
+binance_env/
+.venv/
+venv/
+ENV/
+env.bak/
+env_old/
+
+# VS Code
+.vscode/
+
+# OS files
+.DS_Store
+Thumbs.db
+
+# Pip
+*.egg-info/
+dist/
+build/
+
+# Misc# Python
+__pycache__/
+*.py[cod]
+*.env
+.env
+*.log
+
+# Virtual environment
+env/
+venv/
+ENV/
+
+# VS Code
+.vscode/
+
+# OS Files
+.DS_Store
+Thumbs.db
+
+# Pytest cache
+.pytest_cache/
+
+*.bak
+*.swp
